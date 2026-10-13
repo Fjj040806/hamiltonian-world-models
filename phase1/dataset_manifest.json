@@ -1,0 +1,61 @@
+{
+  "seed": 20261013,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "dt": 0.02,
+  "duration": 4.0,
+  "controlled_training_data": false,
+  "splits": {
+    "train": {
+      "trajectories": 128,
+      "transitions": 25600,
+      "initial_energy_min": 0.20447320906717087,
+      "initial_energy_max": 1.1962320953583796,
+      "max_energy_drift": 1.3795538045258127e-09
+    },
+    "validation": {
+      "trajectories": 32,
+      "transitions": 6400,
+      "initial_energy_min": 0.24328892168271515,
+      "initial_energy_max": 1.1771851391312114,
+      "max_energy_drift": 1.2471923493961867e-09
+    },
+    "test_moderate": {
+      "trajectories": 32,
+      "transitions": 6400,
+      "initial_energy_min": 1.3303875945734267,
+      "initial_energy_max": 1.6944100694769586,
+      "max_energy_drift": 2.4094399808660683e-09
+    },
+    "test_near_below": {
+      "trajectories": 32,
+      "transitions": 6400,
+      "initial_energy_min": 1.8010499811541054,
+      "initial_energy_max": 1.9413204586448405,
+      "max_energy_drift": 2.973616464174711e-09
+    },
+    "test_near_above": {
+      "trajectories": 32,
+      "transitions": 6400,
+      "initial_energy_min": 2.050266769085593,
+      "initial_energy_max": 2.198523190344133,
+      "max_energy_drift": 3.784825342023623e-09
+    },
+    "test_rotation": {
+      "trajectories": 32,
+      "transitions": 6400,
+      "initial_energy_min": 2.403445101615441,
+      "initial_energy_max": 2.999344275978591,
+      "max_energy_drift": 6.590021861541118e-09
+    }
+  },
+  "files": {
+    "test_moderate.npz": "fac050e952f7c3dbf75d06114bd104ae9c16dfcbcf9ff21e2a68179efd539485",
+    "test_near_above.npz": "1f8769dc77e304ce37466781e8276a51efd73e5f27c42bba788677917189f819",
+    "validation.npz": "cb8567de997e816ab8857914bb0cc10011a0b4fbecda3eaf9f1a950ca096f228",
+    "train.npz": "90ecb5d07b4d1f6e314efcabeea852de0729a5c38c4af091bc5a29c3da7bab2b",
+    "test_near_below.npz": "c9f40b038c429e0d35270d687d1ac72d66abe29daf0997db1b142998ce980b0a",
+    "test_rotation.npz": "032dae5b1252256283d6f2fba88676ec59d8388f836ec51fedbd8dfcc2cd0721"
+  }
+}

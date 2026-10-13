@@ -1,0 +1,38 @@
+{
+  "status": "posthoc mathematical illustration only",
+  "local_pilot_information_included": false,
+  "checks": [
+    {
+      "kind": "force",
+      "task": "forward",
+      "haar_information_max_identity_error": 4.440892098500626e-16,
+      "metric_translation_invariance_error": 1.3877787807814457e-16,
+      "uniform_objective": 0.019235680134435874,
+      "one_nonuniform_objective": 0.02969835808355773
+    },
+    {
+      "kind": "force",
+      "task": "swapped",
+      "haar_information_max_identity_error": 4.440892098500626e-16,
+      "metric_translation_invariance_error": 8.326672684688674e-17,
+      "uniform_objective": 0.019235680134435877,
+      "one_nonuniform_objective": 0.03006829461779349
+    },
+    {
+      "kind": "hamiltonian",
+      "task": "forward",
+      "haar_information_max_identity_error": 5.440092820663267e-15,
+      "metric_translation_invariance_error": 8.326672684688674e-17,
+      "uniform_objective": 0.008641468264835594,
+      "one_nonuniform_objective": 0.010059884201986802
+    },
+    {
+      "kind": "hamiltonian",
+      "task": "swapped",
+      "haar_information_max_identity_error": 5.440092820663267e-15,
+      "metric_translation_invariance_error": 1.1102230246251565e-16,
+      "uniform_objective": 0.00864146826483559,
+      "one_nonuniform_objective": 0.010044113469691559
+    }
+  ]
+}

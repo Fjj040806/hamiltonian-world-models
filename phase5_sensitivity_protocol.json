@@ -1,0 +1,9 @@
+{
+  "status": "posthoc diagnostic frozen after primary model outcomes, before sensitivity outcomes",
+  "purpose": "Expose ridge and structural penalty dependence; do not select or retrain primary control models",
+  "ridge_values": [0.000001,0.00001,0.0001,0.001,0.01],
+  "structural_penalty_values": [0.01,0.1,1.0,10.0],
+  "models": ["force","mean_only","curl_only","curl_mean","hamiltonian"],
+  "reuse": "All original three-seed datasets, both plants; no new training labels",
+  "evaluation": "Held-out low-energy clean-force RMS and uniform-torus force RMS; no test-selected main model"
+}

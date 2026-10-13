@@ -1,0 +1,13 @@
+{
+ "status":"Explanatory diagnostic frozen after primary prediction outcomes, before noise-audit outcomes",
+ "purpose":"Validate exact fixed-design force-estimation variance, not a risk theorem for validation-selected models",
+ "plant":"misspecified",
+ "world_seed":10,
+ "coverage":["local","mixed","global"],
+ "families":["force","odd_force","hamiltonian"],
+ "fixed_ridge":0.000001,
+ "noise_std":0.03,
+ "independent_noise_draws":2000,
+ "primary_models_unchanged":true,
+ "data":"Reuse design points; synthetic centered label-noise draws; no new state coverage or policy training"
+}

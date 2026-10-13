@@ -1,0 +1,109 @@
+{
+  "generic_algorithm_novelty_cleared": false,
+  "primary_numerical_gate_passed": false,
+  "cells": [
+    {
+      "plant": "canonical",
+      "task": "forward",
+      "best_baseline": "random",
+      "method_mean_RMS": {
+        "random": 0.01690621967073273,
+        "uncertainty": 0.01696958807260275,
+        "global_A": 0.017068425799415678,
+        "occupancy_A": 0.017229115971375396,
+        "spectral_A": 0.017546858416409617
+      },
+      "candidate_relative_improvement": -0.03789367216054407,
+      "paired_seeds_improving": 2,
+      "other_budget_checks": [
+        {
+          "budget": 16,
+          "relative_degradation": 0.030350165035278875
+        },
+        {
+          "budget": 256,
+          "relative_degradation": 0.01402672605789368
+        }
+      ],
+      "passed": false
+    },
+    {
+      "plant": "canonical",
+      "task": "swapped",
+      "best_baseline": "random",
+      "method_mean_RMS": {
+        "random": 0.01568699899832125,
+        "uncertainty": 0.01586938724225343,
+        "global_A": 0.016459056531099366,
+        "occupancy_A": 0.01634811909996057,
+        "spectral_A": 0.016543411664490627
+      },
+      "candidate_relative_improvement": -0.05459378599189213,
+      "paired_seeds_improving": 1,
+      "other_budget_checks": [
+        {
+          "budget": 16,
+          "relative_degradation": -0.0011184882633922255
+        },
+        {
+          "budget": 256,
+          "relative_degradation": 0.036440809190963375
+        }
+      ],
+      "passed": false
+    },
+    {
+      "plant": "misspecified",
+      "task": "forward",
+      "best_baseline": "random",
+      "method_mean_RMS": {
+        "random": 0.03455156249211796,
+        "uncertainty": 0.040229629194770876,
+        "global_A": 0.040349228351787315,
+        "occupancy_A": 0.03920587569348825,
+        "spectral_A": 0.039674092806367946
+      },
+      "candidate_relative_improvement": -0.14825755898647297,
+      "paired_seeds_improving": 0,
+      "other_budget_checks": [
+        {
+          "budget": 16,
+          "relative_degradation": 0.08721149575476983
+        },
+        {
+          "budget": 256,
+          "relative_degradation": 0.022462536056284677
+        }
+      ],
+      "passed": false
+    },
+    {
+      "plant": "misspecified",
+      "task": "swapped",
+      "best_baseline": "random",
+      "method_mean_RMS": {
+        "random": 0.05784084308025515,
+        "uncertainty": 0.0599431843274698,
+        "global_A": 0.060500160483159426,
+        "occupancy_A": 0.060109128549028945,
+        "spectral_A": 0.05916164173722542
+      },
+      "candidate_relative_improvement": -0.02283505195693003,
+      "paired_seeds_improving": 2,
+      "other_budget_checks": [
+        {
+          "budget": 16,
+          "relative_degradation": -0.009400082958974654
+        },
+        {
+          "budget": 256,
+          "relative_degradation": -0.006364339247281858
+        }
+      ],
+      "passed": false
+    }
+  ],
+  "confirmation_required": false,
+  "route": "stop new-algorithm route; comparative-study validation and manuscript consolidation",
+  "interpretation": "Practical descriptive screen, not a significance test. Comparator is best baseline, not random alone. No posthoc tuned variants."
+}

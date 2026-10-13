@@ -1,0 +1,120 @@
+{
+  "name": "true_model_seed101_h5_u4",
+  "history": [
+    {
+      "real_steps": 4000,
+      "validation_return": -37.546485900878906,
+      "validation_success": 0.0
+    },
+    {
+      "real_steps": 8000,
+      "validation_return": -6.566658020019531,
+      "validation_success": 0.0
+    },
+    {
+      "real_steps": 12000,
+      "validation_return": -2.9986705780029297,
+      "validation_success": 1.0
+    },
+    {
+      "real_steps": 16000,
+      "validation_return": -2.581702709197998,
+      "validation_success": 1.0
+    }
+  ],
+  "evaluation": [
+    {
+      "kind": "true_model",
+      "seed": 101,
+      "horizon": 5,
+      "split": "validation",
+      "return_mean": -2.3575992584228516,
+      "success_rate": 1.0,
+      "effort_mean": 3.117446184158325,
+      "signed_work_mean": 1.3065974712371826,
+      "per_episode_return": [
+        -2.480018377304077,
+        -2.5210864543914795,
+        -3.452205181121826,
+        -2.109672784805298,
+        -3.32266902923584,
+        -2.8427927494049072,
+        -0.9737469553947449,
+        -2.9514291286468506,
+        -1.7209258079528809,
+        -2.292029619216919,
+        -2.8488874435424805,
+        -2.77604079246521,
+        -3.5926826000213623,
+        -3.0809614658355713,
+        -2.4320147037506104,
+        -2.0788419246673584,
+        -2.119354009628296,
+        -2.801764488220215,
+        -1.465760588645935,
+        -2.2853851318359375,
+        -2.2413406372070312,
+        -2.0128157138824463,
+        -1.2203919887542725,
+        -1.9265856742858887,
+        -3.057663679122925,
+        -2.4638466835021973,
+        -2.4741485118865967,
+        -1.4359427690505981,
+        -1.2867982387542725,
+        -1.3671648502349854,
+        -3.536595582962036,
+        -2.271613121032715
+      ],
+      "per_episode_success": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "real_transitions": 16000,
+  "model_pretraining_transitions": 0,
+  "synthetic_generated": 119680,
+  "synthetic_rejected": 0,
+  "visited_energy_bins": [
+    6572,
+    1517,
+    7551,
+    241,
+    119
+  ],
+  "elapsed_seconds": 29.316386222839355,
+  "torch": "2.14.1+cpu",
+  "updates_per_collection": 4,
+  "validation_only": true
+}

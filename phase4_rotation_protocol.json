@@ -1,0 +1,15 @@
+{
+  "status": "Exploratory secondary task frozen before rotation results",
+  "reason": "Upright stabilization is close to a success ceiling even with zero oracle correction; persistent rotation probes a different use of the learned dynamics and work around cycles",
+  "target_momentum": 2.5,
+  "running_cost": "(p-2.5)^2+0.01*u^2",
+  "success": "|p-2.5|<0.15 at every step of the final one-time-unit interval",
+  "models": ["node", "force", "force_zero_mean", "hnn"],
+  "world_seeds": [0, 3, 4],
+  "policy_seeds": [0],
+  "oracle_budgets": [0, 1000],
+  "true_only_reference_budget": 16000,
+  "unique_runs": 25,
+  "updates_and_total_transitions": "Same fixed 7492 SAC updates and 16000 total transitions as the primary intervention",
+  "limitations": "Single policy-seed screening experiment; no confirmatory significance or general algorithm claim"
+}

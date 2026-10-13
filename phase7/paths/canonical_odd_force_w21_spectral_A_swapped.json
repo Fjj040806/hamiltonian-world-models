@@ -1,0 +1,1603 @@
+{
+  "records": [
+    {
+      "plant": "canonical",
+      "kind": "odd_force",
+      "world_seed": 21,
+      "method": "spectral_A",
+      "design_task": "swapped",
+      "budget": 0,
+      "model_file": "pilot_canonical_odd_force_w21.npz"
+    },
+    {
+      "plant": "canonical",
+      "kind": "odd_force",
+      "world_seed": 21,
+      "method": "spectral_A",
+      "design_task": "swapped",
+      "budget": 16,
+      "model_file": "canonical_odd_force_w21_spectral_A_swapped_b16.npz",
+      "global_posterior_variance": 0.0005940904760525103,
+      "spectral_posterior_variance": {
+        "forward": 5.711274003029851e-05,
+        "swapped": 5.4770265026659634e-05
+      },
+      "inverse_check_max_error": 8.014422459012849e-16,
+      "normal_equation_residual": 3.2880273113153076e-11
+    },
+    {
+      "plant": "canonical",
+      "kind": "odd_force",
+      "world_seed": 21,
+      "method": "spectral_A",
+      "design_task": "swapped",
+      "budget": 64,
+      "model_file": "canonical_odd_force_w21_spectral_A_swapped_b64.npz",
+      "global_posterior_variance": 0.00018623229718910735,
+      "spectral_posterior_variance": {
+        "forward": 1.7240077354464086e-05,
+        "swapped": 1.6870082962704126e-05
+      },
+      "inverse_check_max_error": 1.8908485888147197e-16,
+      "normal_equation_residual": 3.3051529395663056e-11
+    },
+    {
+      "plant": "canonical",
+      "kind": "odd_force",
+      "world_seed": 21,
+      "method": "spectral_A",
+      "design_task": "swapped",
+      "budget": 256,
+      "model_file": "canonical_odd_force_w21_spectral_A_swapped_b256.npz",
+      "global_posterior_variance": 5.770454637647692e-05,
+      "spectral_posterior_variance": {
+        "forward": 5.232532634027994e-06,
+        "swapped": 5.140781573606592e-06
+      },
+      "inverse_check_max_error": 6.852157730108388e-17,
+      "normal_equation_residual": 3.312691873768917e-11
+    }
+  ],
+  "history": [
+    {
+      "query": 1,
+      "candidate_index": 64,
+      "acquisition_score": 59.333058297333864,
+      "global_posterior_variance": 0.06855184143359434
+    },
+    {
+      "query": 2,
+      "candidate_index": 155,
+      "acquisition_score": 29.437958664967056,
+      "global_posterior_variance": 0.03566143006404706
+    },
+    {
+      "query": 3,
+      "candidate_index": 752,
+      "acquisition_score": 19.280086733041006,
+      "global_posterior_variance": 0.023031410795010386
+    },
+    {
+      "query": 4,
+      "candidate_index": 855,
+      "acquisition_score": 10.667790528015928,
+      "global_posterior_variance": 0.009505211763135662
+    },
+    {
+      "query": 5,
+      "candidate_index": 291,
+      "acquisition_score": 5.599633443824886,
+      "global_posterior_variance": 0.004816226063746927
+    },
+    {
+      "query": 6,
+      "candidate_index": 221,
+      "acquisition_score": 1.3894457222940366,
+      "global_posterior_variance": 0.002193873879246318
+    },
+    {
+      "query": 7,
+      "candidate_index": 22,
+      "acquisition_score": 0.8274587863060922,
+      "global_posterior_variance": 0.0014515114612414367
+    },
+    {
+      "query": 8,
+      "candidate_index": 25,
+      "acquisition_score": 0.27839977183611486,
+      "global_posterior_variance": 0.0012352802929681476
+    },
+    {
+      "query": 9,
+      "candidate_index": 231,
+      "acquisition_score": 0.23147568928715667,
+      "global_posterior_variance": 0.0010796200432218674
+    },
+    {
+      "query": 10,
+      "candidate_index": 797,
+      "acquisition_score": 0.13602328872160047,
+      "global_posterior_variance": 0.0009387257683761414
+    },
+    {
+      "query": 11,
+      "candidate_index": 595,
+      "acquisition_score": 0.11601578967272688,
+      "global_posterior_variance": 0.0008196291231829973
+    },
+    {
+      "query": 12,
+      "candidate_index": 976,
+      "acquisition_score": 0.08097395004248961,
+      "global_posterior_variance": 0.0007483062925322634
+    },
+    {
+      "query": 13,
+      "candidate_index": 504,
+      "acquisition_score": 0.059958435938600896,
+      "global_posterior_variance": 0.0007031686982239708
+    },
+    {
+      "query": 14,
+      "candidate_index": 47,
+      "acquisition_score": 0.05764314055186496,
+      "global_posterior_variance": 0.000658238378211118
+    },
+    {
+      "query": 15,
+      "candidate_index": 71,
+      "acquisition_score": 0.0446319349815709,
+      "global_posterior_variance": 0.0006185675601760592
+    },
+    {
+      "query": 16,
+      "candidate_index": 852,
+      "acquisition_score": 0.03223142885689922,
+      "global_posterior_variance": 0.0005940904760525103
+    },
+    {
+      "query": 17,
+      "candidate_index": 612,
+      "acquisition_score": 0.029727837640649298,
+      "global_posterior_variance": 0.0005728295416939648
+    },
+    {
+      "query": 18,
+      "candidate_index": 786,
+      "acquisition_score": 0.027422794810902894,
+      "global_posterior_variance": 0.0005441777897148633
+    },
+    {
+      "query": 19,
+      "candidate_index": 481,
+      "acquisition_score": 0.027671791583948606,
+      "global_posterior_variance": 0.0005225137121846534
+    },
+    {
+      "query": 20,
+      "candidate_index": 11,
+      "acquisition_score": 0.02580670138255908,
+      "global_posterior_variance": 0.000501793907664755
+    },
+    {
+      "query": 21,
+      "candidate_index": 888,
+      "acquisition_score": 0.025512829943006056,
+      "global_posterior_variance": 0.00047145754840919213
+    },
+    {
+      "query": 22,
+      "candidate_index": 462,
+      "acquisition_score": 0.02188792804494768,
+      "global_posterior_variance": 0.00045347408667658365
+    },
+    {
+      "query": 23,
+      "candidate_index": 581,
+      "acquisition_score": 0.01695656422836812,
+      "global_posterior_variance": 0.00043661108501874416
+    },
+    {
+      "query": 24,
+      "candidate_index": 810,
+      "acquisition_score": 0.016431871279655428,
+      "global_posterior_variance": 0.00041973885482379954
+    },
+    {
+      "query": 25,
+      "candidate_index": 858,
+      "acquisition_score": 0.015236075376853913,
+      "global_posterior_variance": 0.00040650791492966037
+    },
+    {
+      "query": 26,
+      "candidate_index": 559,
+      "acquisition_score": 0.015352798716588494,
+      "global_posterior_variance": 0.0003960155424081521
+    },
+    {
+      "query": 27,
+      "candidate_index": 547,
+      "acquisition_score": 0.013580532123171722,
+      "global_posterior_variance": 0.00038595027810339223
+    },
+    {
+      "query": 28,
+      "candidate_index": 74,
+      "acquisition_score": 0.013064979275223645,
+      "global_posterior_variance": 0.00037224825196563764
+    },
+    {
+      "query": 29,
+      "candidate_index": 579,
+      "acquisition_score": 0.011699637429251982,
+      "global_posterior_variance": 0.0003602060131449323
+    },
+    {
+      "query": 30,
+      "candidate_index": 362,
+      "acquisition_score": 0.011516931839701462,
+      "global_posterior_variance": 0.0003476002878890048
+    },
+    {
+      "query": 31,
+      "candidate_index": 525,
+      "acquisition_score": 0.011105119718737918,
+      "global_posterior_variance": 0.0003388568906924478
+    },
+    {
+      "query": 32,
+      "candidate_index": 602,
+      "acquisition_score": 0.010554101439987397,
+      "global_posterior_variance": 0.00033007423866904375
+    },
+    {
+      "query": 33,
+      "candidate_index": 826,
+      "acquisition_score": 0.010030173156537422,
+      "global_posterior_variance": 0.00032195460095538035
+    },
+    {
+      "query": 34,
+      "candidate_index": 571,
+      "acquisition_score": 0.00857054426956915,
+      "global_posterior_variance": 0.00031314493065873666
+    },
+    {
+      "query": 35,
+      "candidate_index": 24,
+      "acquisition_score": 0.008008295059599739,
+      "global_posterior_variance": 0.000307618059819098
+    },
+    {
+      "query": 36,
+      "candidate_index": 97,
+      "acquisition_score": 0.007906115778940608,
+      "global_posterior_variance": 0.0003003585709605794
+    },
+    {
+      "query": 37,
+      "candidate_index": 313,
+      "acquisition_score": 0.007414774787288157,
+      "global_posterior_variance": 0.0002949321564815204
+    },
+    {
+      "query": 38,
+      "candidate_index": 61,
+      "acquisition_score": 0.007263798946400066,
+      "global_posterior_variance": 0.00028828090507869843
+    },
+    {
+      "query": 39,
+      "candidate_index": 952,
+      "acquisition_score": 0.006992344635240565,
+      "global_posterior_variance": 0.00028208570661724823
+    },
+    {
+      "query": 40,
+      "candidate_index": 767,
+      "acquisition_score": 0.00681327487894409,
+      "global_posterior_variance": 0.0002748255197479027
+    },
+    {
+      "query": 41,
+      "candidate_index": 321,
+      "acquisition_score": 0.006689774081699679,
+      "global_posterior_variance": 0.0002676807574710678
+    },
+    {
+      "query": 42,
+      "candidate_index": 477,
+      "acquisition_score": 0.005945098081898113,
+      "global_posterior_variance": 0.00026290258928717073
+    },
+    {
+      "query": 43,
+      "candidate_index": 335,
+      "acquisition_score": 0.0056008688915672265,
+      "global_posterior_variance": 0.0002583279223054798
+    },
+    {
+      "query": 44,
+      "candidate_index": 963,
+      "acquisition_score": 0.005586665340364995,
+      "global_posterior_variance": 0.00025369977658802053
+    },
+    {
+      "query": 45,
+      "candidate_index": 641,
+      "acquisition_score": 0.005269392772563316,
+      "global_posterior_variance": 0.00024970281060712605
+    },
+    {
+      "query": 46,
+      "candidate_index": 56,
+      "acquisition_score": 0.004980850226538062,
+      "global_posterior_variance": 0.0002457160797820297
+    },
+    {
+      "query": 47,
+      "candidate_index": 96,
+      "acquisition_score": 0.004947830126509821,
+      "global_posterior_variance": 0.0002412237078571484
+    },
+    {
+      "query": 48,
+      "candidate_index": 591,
+      "acquisition_score": 0.004804900155076956,
+      "global_posterior_variance": 0.00023700342414957335
+    },
+    {
+      "query": 49,
+      "candidate_index": 931,
+      "acquisition_score": 0.004536991113320705,
+      "global_posterior_variance": 0.00023324601716843223
+    },
+    {
+      "query": 50,
+      "candidate_index": 286,
+      "acquisition_score": 0.004274123489216216,
+      "global_posterior_variance": 0.00022958508685303828
+    },
+    {
+      "query": 51,
+      "candidate_index": 329,
+      "acquisition_score": 0.004173067274074546,
+      "global_posterior_variance": 0.00022520913480892154
+    },
+    {
+      "query": 52,
+      "candidate_index": 584,
+      "acquisition_score": 0.003960578193704568,
+      "global_posterior_variance": 0.00022177151504266488
+    },
+    {
+      "query": 53,
+      "candidate_index": 802,
+      "acquisition_score": 0.003924010688395254,
+      "global_posterior_variance": 0.00021843989948838432
+    },
+    {
+      "query": 54,
+      "candidate_index": 404,
+      "acquisition_score": 0.0037586354843677588,
+      "global_posterior_variance": 0.00021461780944969554
+    },
+    {
+      "query": 55,
+      "candidate_index": 800,
+      "acquisition_score": 0.0036010202216801494,
+      "global_posterior_variance": 0.00021132069953670618
+    },
+    {
+      "query": 56,
+      "candidate_index": 917,
+      "acquisition_score": 0.0035114945076846135,
+      "global_posterior_variance": 0.00020752606406495408
+    },
+    {
+      "query": 57,
+      "candidate_index": 475,
+      "acquisition_score": 0.003507816023567975,
+      "global_posterior_variance": 0.00020447554799209668
+    },
+    {
+      "query": 58,
+      "candidate_index": 936,
+      "acquisition_score": 0.0033968483780284615,
+      "global_posterior_variance": 0.00020171756385568764
+    },
+    {
+      "query": 59,
+      "candidate_index": 377,
+      "acquisition_score": 0.003348208500012416,
+      "global_posterior_variance": 0.0001989961798932777
+    },
+    {
+      "query": 60,
+      "candidate_index": 989,
+      "acquisition_score": 0.003013576893067705,
+      "global_posterior_variance": 0.00019639601217545888
+    },
+    {
+      "query": 61,
+      "candidate_index": 141,
+      "acquisition_score": 0.0029259862698466847,
+      "global_posterior_variance": 0.0001934544353763716
+    },
+    {
+      "query": 62,
+      "candidate_index": 195,
+      "acquisition_score": 0.002893429801830888,
+      "global_posterior_variance": 0.00019085957785732203
+    },
+    {
+      "query": 63,
+      "candidate_index": 399,
+      "acquisition_score": 0.0028411152145059837,
+      "global_posterior_variance": 0.00018848560262383433
+    },
+    {
+      "query": 64,
+      "candidate_index": 732,
+      "acquisition_score": 0.0027500456184348585,
+      "global_posterior_variance": 0.00018623229718910735
+    },
+    {
+      "query": 65,
+      "candidate_index": 55,
+      "acquisition_score": 0.0026746468917497653,
+      "global_posterior_variance": 0.00018399160249365527
+    },
+    {
+      "query": 66,
+      "candidate_index": 408,
+      "acquisition_score": 0.0026366288720872863,
+      "global_posterior_variance": 0.00018140633082568773
+    },
+    {
+      "query": 67,
+      "candidate_index": 342,
+      "acquisition_score": 0.002506457558613421,
+      "global_posterior_variance": 0.0001791654005935603
+    },
+    {
+      "query": 68,
+      "candidate_index": 906,
+      "acquisition_score": 0.002489825437494283,
+      "global_posterior_variance": 0.00017677201387595836
+    },
+    {
+      "query": 69,
+      "candidate_index": 17,
+      "acquisition_score": 0.002458231754340219,
+      "global_posterior_variance": 0.0001746307169284537
+    },
+    {
+      "query": 70,
+      "candidate_index": 471,
+      "acquisition_score": 0.002344653019872499,
+      "global_posterior_variance": 0.0001729066157588769
+    },
+    {
+      "query": 71,
+      "candidate_index": 297,
+      "acquisition_score": 0.002289384764115966,
+      "global_posterior_variance": 0.00017065984039647906
+    },
+    {
+      "query": 72,
+      "candidate_index": 723,
+      "acquisition_score": 0.0022473833885699648,
+      "global_posterior_variance": 0.00016870802777079358
+    },
+    {
+      "query": 73,
+      "candidate_index": 788,
+      "acquisition_score": 0.0021850870476163033,
+      "global_posterior_variance": 0.00016671108522709152
+    },
+    {
+      "query": 74,
+      "candidate_index": 3,
+      "acquisition_score": 0.002092552972793351,
+      "global_posterior_variance": 0.00016495181865554918
+    },
+    {
+      "query": 75,
+      "candidate_index": 174,
+      "acquisition_score": 0.0020287446867500196,
+      "global_posterior_variance": 0.0001632955479296795
+    },
+    {
+      "query": 76,
+      "candidate_index": 992,
+      "acquisition_score": 0.001982372244149713,
+      "global_posterior_variance": 0.00016174124133405912
+    },
+    {
+      "query": 77,
+      "candidate_index": 1001,
+      "acquisition_score": 0.0019479428794416031,
+      "global_posterior_variance": 0.00016004799350736825
+    },
+    {
+      "query": 78,
+      "candidate_index": 358,
+      "acquisition_score": 0.0019580221211818617,
+      "global_posterior_variance": 0.00015788668902079069
+    },
+    {
+      "query": 79,
+      "candidate_index": 381,
+      "acquisition_score": 0.001895619131900522,
+      "global_posterior_variance": 0.00015611503596054272
+    },
+    {
+      "query": 80,
+      "candidate_index": 815,
+      "acquisition_score": 0.0018198317413126719,
+      "global_posterior_variance": 0.00015489722577155765
+    },
+    {
+      "query": 81,
+      "candidate_index": 916,
+      "acquisition_score": 0.0017250469310529923,
+      "global_posterior_variance": 0.00015335163670999436
+    },
+    {
+      "query": 82,
+      "candidate_index": 1020,
+      "acquisition_score": 0.0017232159993631373,
+      "global_posterior_variance": 0.00015193227380021928
+    },
+    {
+      "query": 83,
+      "candidate_index": 779,
+      "acquisition_score": 0.0016606758772816004,
+      "global_posterior_variance": 0.00015059699481283909
+    },
+    {
+      "query": 84,
+      "candidate_index": 824,
+      "acquisition_score": 0.001649949617633013,
+      "global_posterior_variance": 0.00014912313329389483
+    },
+    {
+      "query": 85,
+      "candidate_index": 516,
+      "acquisition_score": 0.0016086904270843027,
+      "global_posterior_variance": 0.00014725395401791888
+    },
+    {
+      "query": 86,
+      "candidate_index": 556,
+      "acquisition_score": 0.0015806334345543703,
+      "global_posterior_variance": 0.0001459888029658186
+    },
+    {
+      "query": 87,
+      "candidate_index": 709,
+      "acquisition_score": 0.0015776363602222879,
+      "global_posterior_variance": 0.00014461406371811268
+    },
+    {
+      "query": 88,
+      "candidate_index": 198,
+      "acquisition_score": 0.00155256426741542,
+      "global_posterior_variance": 0.00014325176019639165
+    },
+    {
+      "query": 89,
+      "candidate_index": 913,
+      "acquisition_score": 0.0015452967115953309,
+      "global_posterior_variance": 0.0001418874770056924
+    },
+    {
+      "query": 90,
+      "candidate_index": 572,
+      "acquisition_score": 0.0015143171536484783,
+      "global_posterior_variance": 0.0001401591126618328
+    },
+    {
+      "query": 91,
+      "candidate_index": 50,
+      "acquisition_score": 0.0015051146255190258,
+      "global_posterior_variance": 0.00013873246641981125
+    },
+    {
+      "query": 92,
+      "candidate_index": 327,
+      "acquisition_score": 0.0014007069177597305,
+      "global_posterior_variance": 0.00013743199630006651
+    },
+    {
+      "query": 93,
+      "candidate_index": 325,
+      "acquisition_score": 0.001334044266258728,
+      "global_posterior_variance": 0.000135975265245356
+    },
+    {
+      "query": 94,
+      "candidate_index": 775,
+      "acquisition_score": 0.0013368837099310396,
+      "global_posterior_variance": 0.0001347966581643315
+    },
+    {
+      "query": 95,
+      "candidate_index": 302,
+      "acquisition_score": 0.0013137513261707293,
+      "global_posterior_variance": 0.0001336869999429206
+    },
+    {
+      "query": 96,
+      "candidate_index": 336,
+      "acquisition_score": 0.0013058969187749443,
+      "global_posterior_variance": 0.00013250442577969585
+    },
+    {
+      "query": 97,
+      "candidate_index": 442,
+      "acquisition_score": 0.0012623306768134437,
+      "global_posterior_variance": 0.00013143921232325637
+    },
+    {
+      "query": 98,
+      "candidate_index": 453,
+      "acquisition_score": 0.0012583670502725648,
+      "global_posterior_variance": 0.0001302844881822956
+    },
+    {
+      "query": 99,
+      "candidate_index": 552,
+      "acquisition_score": 0.0012408841398694763,
+      "global_posterior_variance": 0.00012918096085352628
+    },
+    {
+      "query": 100,
+      "candidate_index": 546,
+      "acquisition_score": 0.0012341729832527166,
+      "global_posterior_variance": 0.00012816010572980782
+    },
+    {
+      "query": 101,
+      "candidate_index": 499,
+      "acquisition_score": 0.0012114508604075883,
+      "global_posterior_variance": 0.00012711876848063553
+    },
+    {
+      "query": 102,
+      "candidate_index": 843,
+      "acquisition_score": 0.00119292573943024,
+      "global_posterior_variance": 0.00012585576756597204
+    },
+    {
+      "query": 103,
+      "candidate_index": 994,
+      "acquisition_score": 0.001170381915621726,
+      "global_posterior_variance": 0.00012485472655356715
+    },
+    {
+      "query": 104,
+      "candidate_index": 294,
+      "acquisition_score": 0.0011270859938974432,
+      "global_posterior_variance": 0.00012381026818531876
+    },
+    {
+      "query": 105,
+      "candidate_index": 506,
+      "acquisition_score": 0.0010781310825482737,
+      "global_posterior_variance": 0.0001228583221488668
+    },
+    {
+      "query": 106,
+      "candidate_index": 44,
+      "acquisition_score": 0.0010689326327273064,
+      "global_posterior_variance": 0.00012164883987644546
+    },
+    {
+      "query": 107,
+      "candidate_index": 146,
+      "acquisition_score": 0.0010616913270669011,
+      "global_posterior_variance": 0.00012060228961751401
+    },
+    {
+      "query": 108,
+      "candidate_index": 383,
+      "acquisition_score": 0.001045337039086312,
+      "global_posterior_variance": 0.00011963483993761253
+    },
+    {
+      "query": 109,
+      "candidate_index": 148,
+      "acquisition_score": 0.0010281306536133032,
+      "global_posterior_variance": 0.00011874465729748052
+    },
+    {
+      "query": 110,
+      "candidate_index": 478,
+      "acquisition_score": 0.0010231870505034175,
+      "global_posterior_variance": 0.00011782413073548352
+    },
+    {
+      "query": 111,
+      "candidate_index": 301,
+      "acquisition_score": 0.0010141660953044938,
+      "global_posterior_variance": 0.00011691766602480075
+    },
+    {
+      "query": 112,
+      "candidate_index": 94,
+      "acquisition_score": 0.0009707469045728027,
+      "global_posterior_variance": 0.00011574952102997312
+    },
+    {
+      "query": 113,
+      "candidate_index": 425,
+      "acquisition_score": 0.0009636485731625936,
+      "global_posterior_variance": 0.00011493712220350964
+    },
+    {
+      "query": 114,
+      "candidate_index": 277,
+      "acquisition_score": 0.0009568406610201318,
+      "global_posterior_variance": 0.00011414207833782351
+    },
+    {
+      "query": 115,
+      "candidate_index": 659,
+      "acquisition_score": 0.0009518768018994769,
+      "global_posterior_variance": 0.00011330245186166212
+    },
+    {
+      "query": 116,
+      "candidate_index": 307,
+      "acquisition_score": 0.0009016396599975641,
+      "global_posterior_variance": 0.00011249452913522835
+    },
+    {
+      "query": 117,
+      "candidate_index": 962,
+      "acquisition_score": 0.0008810727578178324,
+      "global_posterior_variance": 0.00011173873857801489
+    },
+    {
+      "query": 118,
+      "candidate_index": 897,
+      "acquisition_score": 0.000874394962836197,
+      "global_posterior_variance": 0.00011100427484111765
+    },
+    {
+      "query": 119,
+      "candidate_index": 490,
+      "acquisition_score": 0.0008604505294521526,
+      "global_posterior_variance": 0.00011018044359757018
+    },
+    {
+      "query": 120,
+      "candidate_index": 966,
+      "acquisition_score": 0.0008574659662572572,
+      "global_posterior_variance": 0.00010936977349531237
+    },
+    {
+      "query": 121,
+      "candidate_index": 222,
+      "acquisition_score": 0.0008513318376922283,
+      "global_posterior_variance": 0.0001085729782928609
+    },
+    {
+      "query": 122,
+      "candidate_index": 486,
+      "acquisition_score": 0.0008463127145087006,
+      "global_posterior_variance": 0.00010777044395197998
+    },
+    {
+      "query": 123,
+      "candidate_index": 549,
+      "acquisition_score": 0.0008381381750741837,
+      "global_posterior_variance": 0.0001070562601375656
+    },
+    {
+      "query": 124,
+      "candidate_index": 879,
+      "acquisition_score": 0.0008024389822187011,
+      "global_posterior_variance": 0.0001063221269397859
+    },
+    {
+      "query": 125,
+      "candidate_index": 487,
+      "acquisition_score": 0.000787672547943794,
+      "global_posterior_variance": 0.00010568701999837654
+    },
+    {
+      "query": 126,
+      "candidate_index": 200,
+      "acquisition_score": 0.0007819677457583784,
+      "global_posterior_variance": 0.00010489098884965896
+    },
+    {
+      "query": 127,
+      "candidate_index": 387,
+      "acquisition_score": 0.0007772427797430598,
+      "global_posterior_variance": 0.00010426059769036871
+    },
+    {
+      "query": 128,
+      "candidate_index": 28,
+      "acquisition_score": 0.0007655991226037708,
+      "global_posterior_variance": 0.00010359958572567572
+    },
+    {
+      "query": 129,
+      "candidate_index": 574,
+      "acquisition_score": 0.0007494595719935571,
+      "global_posterior_variance": 0.00010298332446813484
+    },
+    {
+      "query": 130,
+      "candidate_index": 776,
+      "acquisition_score": 0.0007344491883533357,
+      "global_posterior_variance": 0.00010219998989408006
+    },
+    {
+      "query": 131,
+      "candidate_index": 158,
+      "acquisition_score": 0.0007148325225832796,
+      "global_posterior_variance": 0.0001015150441847054
+    },
+    {
+      "query": 132,
+      "candidate_index": 447,
+      "acquisition_score": 0.0007109595654369108,
+      "global_posterior_variance": 0.00010068862904382695
+    },
+    {
+      "query": 133,
+      "candidate_index": 476,
+      "acquisition_score": 0.0007087664442579194,
+      "global_posterior_variance": 0.00010002357257613858
+    },
+    {
+      "query": 134,
+      "candidate_index": 191,
+      "acquisition_score": 0.000696321120328263,
+      "global_posterior_variance": 9.94312776409462e-05
+    },
+    {
+      "query": 135,
+      "candidate_index": 93,
+      "acquisition_score": 0.0006928902048446647,
+      "global_posterior_variance": 9.880262439997622e-05
+    },
+    {
+      "query": 136,
+      "candidate_index": 954,
+      "acquisition_score": 0.0006932616879006149,
+      "global_posterior_variance": 9.81737215291276e-05
+    },
+    {
+      "query": 137,
+      "candidate_index": 220,
+      "acquisition_score": 0.0006693289761504482,
+      "global_posterior_variance": 9.7590146960104e-05
+    },
+    {
+      "query": 138,
+      "candidate_index": 981,
+      "acquisition_score": 0.000642296932160822,
+      "global_posterior_variance": 9.695520866451637e-05
+    },
+    {
+      "query": 139,
+      "candidate_index": 179,
+      "acquisition_score": 0.000638473396135098,
+      "global_posterior_variance": 9.642227980697844e-05
+    },
+    {
+      "query": 140,
+      "candidate_index": 667,
+      "acquisition_score": 0.0006357085093327871,
+      "global_posterior_variance": 9.585246771607314e-05
+    },
+    {
+      "query": 141,
+      "candidate_index": 967,
+      "acquisition_score": 0.0006277204066282135,
+      "global_posterior_variance": 9.530585046661274e-05
+    },
+    {
+      "query": 142,
+      "candidate_index": 635,
+      "acquisition_score": 0.0006268757948492247,
+      "global_posterior_variance": 9.476316028551419e-05
+    },
+    {
+      "query": 143,
+      "candidate_index": 2,
+      "acquisition_score": 0.0006160596171846539,
+      "global_posterior_variance": 9.422455695712372e-05
+    },
+    {
+      "query": 144,
+      "candidate_index": 624,
+      "acquisition_score": 0.0006099344964034259,
+      "global_posterior_variance": 9.365793899165489e-05
+    },
+    {
+      "query": 145,
+      "candidate_index": 707,
+      "acquisition_score": 0.0006043517315626802,
+      "global_posterior_variance": 9.312754996383273e-05
+    },
+    {
+      "query": 146,
+      "candidate_index": 940,
+      "acquisition_score": 0.0005883710910908565,
+      "global_posterior_variance": 9.265953681080509e-05
+    },
+    {
+      "query": 147,
+      "candidate_index": 593,
+      "acquisition_score": 0.0005839047110731011,
+      "global_posterior_variance": 9.2044965757645e-05
+    },
+    {
+      "query": 148,
+      "candidate_index": 741,
+      "acquisition_score": 0.0005726771382935196,
+      "global_posterior_variance": 9.144488123029216e-05
+    },
+    {
+      "query": 149,
+      "candidate_index": 150,
+      "acquisition_score": 0.0005673066948378203,
+      "global_posterior_variance": 9.090443429589945e-05
+    },
+    {
+      "query": 150,
+      "candidate_index": 745,
+      "acquisition_score": 0.0005668938311772781,
+      "global_posterior_variance": 9.037346166755791e-05
+    },
+    {
+      "query": 151,
+      "candidate_index": 772,
+      "acquisition_score": 0.000566051885471433,
+      "global_posterior_variance": 8.98886793545572e-05
+    },
+    {
+      "query": 152,
+      "candidate_index": 104,
+      "acquisition_score": 0.0005543178552721743,
+      "global_posterior_variance": 8.936412283785194e-05
+    },
+    {
+      "query": 153,
+      "candidate_index": 414,
+      "acquisition_score": 0.0005450111063414817,
+      "global_posterior_variance": 8.886250360296665e-05
+    },
+    {
+      "query": 154,
+      "candidate_index": 502,
+      "acquisition_score": 0.0005366184361116997,
+      "global_posterior_variance": 8.83629460391775e-05
+    },
+    {
+      "query": 155,
+      "candidate_index": 361,
+      "acquisition_score": 0.0005307155628050549,
+      "global_posterior_variance": 8.791756038784239e-05
+    },
+    {
+      "query": 156,
+      "candidate_index": 472,
+      "acquisition_score": 0.0005146792489822147,
+      "global_posterior_variance": 8.740242724520327e-05
+    },
+    {
+      "query": 157,
+      "candidate_index": 20,
+      "acquisition_score": 0.0005129435663945944,
+      "global_posterior_variance": 8.693838398756509e-05
+    },
+    {
+      "query": 158,
+      "candidate_index": 116,
+      "acquisition_score": 0.0005075760818303548,
+      "global_posterior_variance": 8.63566293347171e-05
+    },
+    {
+      "query": 159,
+      "candidate_index": 971,
+      "acquisition_score": 0.0005024010181124384,
+      "global_posterior_variance": 8.595816885750149e-05
+    },
+    {
+      "query": 160,
+      "candidate_index": 206,
+      "acquisition_score": 0.0004986784472009606,
+      "global_posterior_variance": 8.554599672556688e-05
+    },
+    {
+      "query": 161,
+      "candidate_index": 893,
+      "acquisition_score": 0.00048356366925691573,
+      "global_posterior_variance": 8.504670212401343e-05
+    },
+    {
+      "query": 162,
+      "candidate_index": 857,
+      "acquisition_score": 0.0004811672333076377,
+      "global_posterior_variance": 8.459213525125024e-05
+    },
+    {
+      "query": 163,
+      "candidate_index": 529,
+      "acquisition_score": 0.0004802652382008181,
+      "global_posterior_variance": 8.423168250549457e-05
+    },
+    {
+      "query": 164,
+      "candidate_index": 528,
+      "acquisition_score": 0.0004784985541267156,
+      "global_posterior_variance": 8.377500395838064e-05
+    },
+    {
+      "query": 165,
+      "candidate_index": 542,
+      "acquisition_score": 0.00047534377276940677,
+      "global_posterior_variance": 8.338095714521986e-05
+    },
+    {
+      "query": 166,
+      "candidate_index": 921,
+      "acquisition_score": 0.0004661310109716041,
+      "global_posterior_variance": 8.298089236125887e-05
+    },
+    {
+      "query": 167,
+      "candidate_index": 76,
+      "acquisition_score": 0.0004601617825348425,
+      "global_posterior_variance": 8.255072150982701e-05
+    },
+    {
+      "query": 168,
+      "candidate_index": 508,
+      "acquisition_score": 0.0004487895000059418,
+      "global_posterior_variance": 8.215812587951655e-05
+    },
+    {
+      "query": 169,
+      "candidate_index": 860,
+      "acquisition_score": 0.00044785889722330247,
+      "global_posterior_variance": 8.173430401440583e-05
+    },
+    {
+      "query": 170,
+      "candidate_index": 554,
+      "acquisition_score": 0.0004364763931998553,
+      "global_posterior_variance": 8.135451562393024e-05
+    },
+    {
+      "query": 171,
+      "candidate_index": 186,
+      "acquisition_score": 0.00043330807933056824,
+      "global_posterior_variance": 8.090016339024182e-05
+    },
+    {
+      "query": 172,
+      "candidate_index": 114,
+      "acquisition_score": 0.00042927645460734805,
+      "global_posterior_variance": 8.047189210245735e-05
+    },
+    {
+      "query": 173,
+      "candidate_index": 670,
+      "acquisition_score": 0.00042817186314422957,
+      "global_posterior_variance": 8.011043789244454e-05
+    },
+    {
+      "query": 174,
+      "candidate_index": 590,
+      "acquisition_score": 0.00042726139538941995,
+      "global_posterior_variance": 7.97602070172191e-05
+    },
+    {
+      "query": 175,
+      "candidate_index": 106,
+      "acquisition_score": 0.0004228277058609182,
+      "global_posterior_variance": 7.938725494220955e-05
+    },
+    {
+      "query": 176,
+      "candidate_index": 890,
+      "acquisition_score": 0.0004170265587016027,
+      "global_posterior_variance": 7.898815716550874e-05
+    },
+    {
+      "query": 177,
+      "candidate_index": 669,
+      "acquisition_score": 0.00041386568757866254,
+      "global_posterior_variance": 7.859365125285573e-05
+    },
+    {
+      "query": 178,
+      "candidate_index": 483,
+      "acquisition_score": 0.00040482801484504325,
+      "global_posterior_variance": 7.82501637166276e-05
+    },
+    {
+      "query": 179,
+      "candidate_index": 823,
+      "acquisition_score": 0.00039974939762028123,
+      "global_posterior_variance": 7.78933960344482e-05
+    },
+    {
+      "query": 180,
+      "candidate_index": 304,
+      "acquisition_score": 0.00039670534109599397,
+      "global_posterior_variance": 7.755604203452093e-05
+    },
+    {
+      "query": 181,
+      "candidate_index": 507,
+      "acquisition_score": 0.00039162598089982116,
+      "global_posterior_variance": 7.722611083037463e-05
+    },
+    {
+      "query": 182,
+      "candidate_index": 720,
+      "acquisition_score": 0.0003880658164453357,
+      "global_posterior_variance": 7.687577498577003e-05
+    },
+    {
+      "query": 183,
+      "candidate_index": 910,
+      "acquisition_score": 0.0003881214458935527,
+      "global_posterior_variance": 7.65401492810802e-05
+    },
+    {
+      "query": 184,
+      "candidate_index": 281,
+      "acquisition_score": 0.0003791262270417581,
+      "global_posterior_variance": 7.615868667117032e-05
+    },
+    {
+      "query": 185,
+      "candidate_index": 152,
+      "acquisition_score": 0.00037492587120616517,
+      "global_posterior_variance": 7.56964151802444e-05
+    },
+    {
+      "query": 186,
+      "candidate_index": 14,
+      "acquisition_score": 0.0003728979344581124,
+      "global_posterior_variance": 7.538484435372016e-05
+    },
+    {
+      "query": 187,
+      "candidate_index": 131,
+      "acquisition_score": 0.00036791633615612597,
+      "global_posterior_variance": 7.50278601429244e-05
+    },
+    {
+      "query": 188,
+      "candidate_index": 444,
+      "acquisition_score": 0.00036156173574547907,
+      "global_posterior_variance": 7.46859691841011e-05
+    },
+    {
+      "query": 189,
+      "candidate_index": 901,
+      "acquisition_score": 0.0003612359251173426,
+      "global_posterior_variance": 7.436083847943166e-05
+    },
+    {
+      "query": 190,
+      "candidate_index": 642,
+      "acquisition_score": 0.0003600582564086376,
+      "global_posterior_variance": 7.404288732476826e-05
+    },
+    {
+      "query": 191,
+      "candidate_index": 785,
+      "acquisition_score": 0.00035400115516817643,
+      "global_posterior_variance": 7.372408884927753e-05
+    },
+    {
+      "query": 192,
+      "candidate_index": 138,
+      "acquisition_score": 0.0003532620939318716,
+      "global_posterior_variance": 7.34342265510891e-05
+    },
+    {
+      "query": 193,
+      "candidate_index": 870,
+      "acquisition_score": 0.00034825190105953975,
+      "global_posterior_variance": 7.313885708214642e-05
+    },
+    {
+      "query": 194,
+      "candidate_index": 99,
+      "acquisition_score": 0.0003470738507201139,
+      "global_posterior_variance": 7.280958090842838e-05
+    },
+    {
+      "query": 195,
+      "candidate_index": 372,
+      "acquisition_score": 0.00034360239871683633,
+      "global_posterior_variance": 7.250478610509128e-05
+    },
+    {
+      "query": 196,
+      "candidate_index": 922,
+      "acquisition_score": 0.00034025357844221795,
+      "global_posterior_variance": 7.220707026610333e-05
+    },
+    {
+      "query": 197,
+      "candidate_index": 640,
+      "acquisition_score": 0.0003380620684826043,
+      "global_posterior_variance": 7.188564910913705e-05
+    },
+    {
+      "query": 198,
+      "candidate_index": 999,
+      "acquisition_score": 0.0003314919179913712,
+      "global_posterior_variance": 7.15886786417019e-05
+    },
+    {
+      "query": 199,
+      "candidate_index": 830,
+      "acquisition_score": 0.00032035198475417943,
+      "global_posterior_variance": 7.125946023842343e-05
+    },
+    {
+      "query": 200,
+      "candidate_index": 16,
+      "acquisition_score": 0.0003191149243533133,
+      "global_posterior_variance": 7.097489937140918e-05
+    },
+    {
+      "query": 201,
+      "candidate_index": 322,
+      "acquisition_score": 0.00031887763387308045,
+      "global_posterior_variance": 7.076443097587566e-05
+    },
+    {
+      "query": 202,
+      "candidate_index": 558,
+      "acquisition_score": 0.00031860922835383397,
+      "global_posterior_variance": 7.050852864419313e-05
+    },
+    {
+      "query": 203,
+      "candidate_index": 699,
+      "acquisition_score": 0.0003155334710798187,
+      "global_posterior_variance": 7.024476149672878e-05
+    },
+    {
+      "query": 204,
+      "candidate_index": 423,
+      "acquisition_score": 0.0003150602028189189,
+      "global_posterior_variance": 6.993461903661747e-05
+    },
+    {
+      "query": 205,
+      "candidate_index": 666,
+      "acquisition_score": 0.00031501806596020596,
+      "global_posterior_variance": 6.966994877776173e-05
+    },
+    {
+      "query": 206,
+      "candidate_index": 812,
+      "acquisition_score": 0.0003078909361067865,
+      "global_posterior_variance": 6.937189563550269e-05
+    },
+    {
+      "query": 207,
+      "candidate_index": 871,
+      "acquisition_score": 0.00029980396527867585,
+      "global_posterior_variance": 6.909758091117744e-05
+    },
+    {
+      "query": 208,
+      "candidate_index": 421,
+      "acquisition_score": 0.000298787997171334,
+      "global_posterior_variance": 6.88050005280729e-05
+    },
+    {
+      "query": 209,
+      "candidate_index": 682,
+      "acquisition_score": 0.0002981937208160909,
+      "global_posterior_variance": 6.85129130434975e-05
+    },
+    {
+      "query": 210,
+      "candidate_index": 57,
+      "acquisition_score": 0.0002945484228544128,
+      "global_posterior_variance": 6.825764655127523e-05
+    },
+    {
+      "query": 211,
+      "candidate_index": 40,
+      "acquisition_score": 0.00029274827390208803,
+      "global_posterior_variance": 6.798709813004735e-05
+    },
+    {
+      "query": 212,
+      "candidate_index": 129,
+      "acquisition_score": 0.0002926483997606841,
+      "global_posterior_variance": 6.771916680064595e-05
+    },
+    {
+      "query": 213,
+      "candidate_index": 80,
+      "acquisition_score": 0.0002867881838370259,
+      "global_posterior_variance": 6.746087365867505e-05
+    },
+    {
+      "query": 214,
+      "candidate_index": 212,
+      "acquisition_score": 0.00028577583497495907,
+      "global_posterior_variance": 6.717192716313003e-05
+    },
+    {
+      "query": 215,
+      "candidate_index": 754,
+      "acquisition_score": 0.0002818190964665811,
+      "global_posterior_variance": 6.68283380725885e-05
+    },
+    {
+      "query": 216,
+      "candidate_index": 678,
+      "acquisition_score": 0.0002811559049535449,
+      "global_posterior_variance": 6.656863656693135e-05
+    },
+    {
+      "query": 217,
+      "candidate_index": 704,
+      "acquisition_score": 0.0002788334389307994,
+      "global_posterior_variance": 6.634316148270366e-05
+    },
+    {
+      "query": 218,
+      "candidate_index": 883,
+      "acquisition_score": 0.0002737936351256315,
+      "global_posterior_variance": 6.611449325035329e-05
+    },
+    {
+      "query": 219,
+      "candidate_index": 705,
+      "acquisition_score": 0.00027074332312823976,
+      "global_posterior_variance": 6.577177479922408e-05
+    },
+    {
+      "query": 220,
+      "candidate_index": 345,
+      "acquisition_score": 0.00026850016753826236,
+      "global_posterior_variance": 6.555768793922835e-05
+    },
+    {
+      "query": 221,
+      "candidate_index": 865,
+      "acquisition_score": 0.00026763876788316716,
+      "global_posterior_variance": 6.530103678888484e-05
+    },
+    {
+      "query": 222,
+      "candidate_index": 92,
+      "acquisition_score": 0.00026741351540205625,
+      "global_posterior_variance": 6.504528192942844e-05
+    },
+    {
+      "query": 223,
+      "candidate_index": 107,
+      "acquisition_score": 0.00026303613145538626,
+      "global_posterior_variance": 6.480902321820082e-05
+    },
+    {
+      "query": 224,
+      "candidate_index": 228,
+      "acquisition_score": 0.00026215250547217424,
+      "global_posterior_variance": 6.458626466880565e-05
+    },
+    {
+      "query": 225,
+      "candidate_index": 974,
+      "acquisition_score": 0.0002614802593687223,
+      "global_posterior_variance": 6.433788457715972e-05
+    },
+    {
+      "query": 226,
+      "candidate_index": 65,
+      "acquisition_score": 0.00025675938982547356,
+      "global_posterior_variance": 6.407526453408681e-05
+    },
+    {
+      "query": 227,
+      "candidate_index": 742,
+      "acquisition_score": 0.0002533665846162047,
+      "global_posterior_variance": 6.381871969822755e-05
+    },
+    {
+      "query": 228,
+      "candidate_index": 633,
+      "acquisition_score": 0.00025224080271841576,
+      "global_posterior_variance": 6.360939035497737e-05
+    },
+    {
+      "query": 229,
+      "candidate_index": 977,
+      "acquisition_score": 0.00024764203758477005,
+      "global_posterior_variance": 6.338453297149291e-05
+    },
+    {
+      "query": 230,
+      "candidate_index": 603,
+      "acquisition_score": 0.00024765104118157046,
+      "global_posterior_variance": 6.318219467942558e-05
+    },
+    {
+      "query": 231,
+      "candidate_index": 622,
+      "acquisition_score": 0.00024621887220804047,
+      "global_posterior_variance": 6.296788954634046e-05
+    },
+    {
+      "query": 232,
+      "candidate_index": 814,
+      "acquisition_score": 0.00024558062881596996,
+      "global_posterior_variance": 6.274711962849843e-05
+    },
+    {
+      "query": 233,
+      "candidate_index": 443,
+      "acquisition_score": 0.00024337873692005066,
+      "global_posterior_variance": 6.252026403556571e-05
+    },
+    {
+      "query": 234,
+      "candidate_index": 467,
+      "acquisition_score": 0.00023992667358093932,
+      "global_posterior_variance": 6.229999691037288e-05
+    },
+    {
+      "query": 235,
+      "candidate_index": 801,
+      "acquisition_score": 0.00023803801635718138,
+      "global_posterior_variance": 6.206328414224161e-05
+    },
+    {
+      "query": 236,
+      "candidate_index": 676,
+      "acquisition_score": 0.00023804654779229466,
+      "global_posterior_variance": 6.185203649494842e-05
+    },
+    {
+      "query": 237,
+      "candidate_index": 1009,
+      "acquisition_score": 0.0002368057906689819,
+      "global_posterior_variance": 6.161566838321259e-05
+    },
+    {
+      "query": 238,
+      "candidate_index": 173,
+      "acquisition_score": 0.00023427447822848448,
+      "global_posterior_variance": 6.140879412413789e-05
+    },
+    {
+      "query": 239,
+      "candidate_index": 468,
+      "acquisition_score": 0.00023008682886947846,
+      "global_posterior_variance": 6.118211738812988e-05
+    },
+    {
+      "query": 240,
+      "candidate_index": 163,
+      "acquisition_score": 0.00022851805402201487,
+      "global_posterior_variance": 6.098011655393055e-05
+    },
+    {
+      "query": 241,
+      "candidate_index": 986,
+      "acquisition_score": 0.00022760666306958553,
+      "global_posterior_variance": 6.073944266804093e-05
+    },
+    {
+      "query": 242,
+      "candidate_index": 686,
+      "acquisition_score": 0.00022682016708578092,
+      "global_posterior_variance": 6.053832867024051e-05
+    },
+    {
+      "query": 243,
+      "candidate_index": 718,
+      "acquisition_score": 0.00022610657113015644,
+      "global_posterior_variance": 6.03085173990734e-05
+    },
+    {
+      "query": 244,
+      "candidate_index": 265,
+      "acquisition_score": 0.00022233089584204285,
+      "global_posterior_variance": 6.0106780341536346e-05
+    },
+    {
+      "query": 245,
+      "candidate_index": 774,
+      "acquisition_score": 0.00021791526291995187,
+      "global_posterior_variance": 5.989844820669395e-05
+    },
+    {
+      "query": 246,
+      "candidate_index": 436,
+      "acquisition_score": 0.00021659493211065618,
+      "global_posterior_variance": 5.9697551379078965e-05
+    },
+    {
+      "query": 247,
+      "candidate_index": 496,
+      "acquisition_score": 0.00021621660478814543,
+      "global_posterior_variance": 5.944940366791789e-05
+    },
+    {
+      "query": 248,
+      "candidate_index": 270,
+      "acquisition_score": 0.00021516682466403439,
+      "global_posterior_variance": 5.9256893595681855e-05
+    },
+    {
+      "query": 249,
+      "candidate_index": 333,
+      "acquisition_score": 0.00021377742572393918,
+      "global_posterior_variance": 5.9064573521056054e-05
+    },
+    {
+      "query": 250,
+      "candidate_index": 827,
+      "acquisition_score": 0.00021151330684503935,
+      "global_posterior_variance": 5.8868732804749695e-05
+    },
+    {
+      "query": 251,
+      "candidate_index": 1015,
+      "acquisition_score": 0.0002103836193579085,
+      "global_posterior_variance": 5.869329129205503e-05
+    },
+    {
+      "query": 252,
+      "candidate_index": 925,
+      "acquisition_score": 0.00021013864003770357,
+      "global_posterior_variance": 5.847419967461135e-05
+    },
+    {
+      "query": 253,
+      "candidate_index": 108,
+      "acquisition_score": 0.00021067203606782946,
+      "global_posterior_variance": 5.8286312699107876e-05
+    },
+    {
+      "query": 254,
+      "candidate_index": 1006,
+      "acquisition_score": 0.00020534298670056269,
+      "global_posterior_variance": 5.809599458947145e-05
+    },
+    {
+      "query": 255,
+      "candidate_index": 629,
+      "acquisition_score": 0.0002037973140854723,
+      "global_posterior_variance": 5.789215664226255e-05
+    },
+    {
+      "query": 256,
+      "candidate_index": 232,
+      "acquisition_score": 0.00020094953015603376,
+      "global_posterior_variance": 5.770454637647692e-05
+    }
+  ],
+  "pilot_queries": 128,
+  "additional_queries": 256,
+  "unselected_candidate_labels_computed": 0,
+  "elapsed_seconds": 0.21077346801757812
+}

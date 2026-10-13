@@ -1,0 +1,12 @@
+{
+ "status":"diagnostic frozen after partial SAC outcomes, before tracking-controller outcomes",
+ "purpose":"Distinguish learned-force transfer from SAC optimization using a fixed feedback law",
+ "plant":"misspecified",
+ "controller":"clip(-F_model(q)-2*(p-[2.5,1.5]), -2, 2)",
+ "gain":2.0,
+ "families":["force","mean_only","curl_only","curl_mean","hamiltonian"],
+ "world_seeds":[0,1,2],
+ "initial_states":"all original paired evaluation states; no tuning or selection",
+ "oracle_controller":"privileged known-force feasibility reference, not an RL agent or fair data-budget baseline",
+ "no_model_retraining":true
+}

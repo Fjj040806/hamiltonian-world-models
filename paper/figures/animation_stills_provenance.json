@@ -1,0 +1,76 @@
+[
+  {
+    "figure": "control_animation_filmstrip.png",
+    "source": "phase7/phase7_control_comparison.gif",
+    "source_sha256": "26e40a1e79ef30635d350f2a5789e85ff280c27a5fe1639f39d003af93ae005f",
+    "frame_indices": [
+      0,
+      50,
+      100
+    ],
+    "labels": [
+      "t = 0",
+      "t = 10",
+      "t = 20"
+    ],
+    "crop_boxes": [
+      [
+        65,
+        438,
+        380,
+        630
+      ],
+      [
+        850,
+        438,
+        1165,
+        630
+      ]
+    ],
+    "row_labels": [
+      "Random, B = 64",
+      "Spectral A, B = 64"
+    ],
+    "interpretation": "exact GIF frame crops; no new numerical evaluation"
+  },
+  {
+    "figure": "acquisition_animation_filmstrip.png",
+    "source": "phase7/phase7_acquisition.gif",
+    "source_sha256": "7a9e63a77d5b999aa0fff13fd6fd4a39f121b1490adcb0d861c8f91736caa3b7",
+    "frame_indices": [
+      0,
+      16,
+      64
+    ],
+    "labels": [
+      "0 added labels",
+      "16 added labels",
+      "64 added labels"
+    ],
+    "crop_boxes": [
+      [
+        750,
+        80,
+        1065,
+        398
+      ],
+      [
+        425,
+        408,
+        740,
+        710
+      ]
+    ],
+    "row_labels": [
+      "Global A",
+      "Spectral A"
+    ],
+    "interpretation": "exact GIF frame crops; no new numerical evaluation"
+  },
+  {
+    "figure": "acquisition_frame_32.png",
+    "source": "phase7/phase7_acquisition.gif",
+    "frame_index": 32,
+    "interpretation": "complete unchanged frame at 32 acquired labels"
+  }
+]

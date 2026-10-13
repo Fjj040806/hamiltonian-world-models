@@ -1,0 +1,12 @@
+{
+  "purpose": "Calibrate optimizer update budget using true-model SAC and in-distribution validation only; separate from the frozen comparison",
+  "trigger": "The true-model reference did not achieve the sustained-stabilization criterion at the initial update budget",
+  "seed": 101,
+  "real_transitions": 16000,
+  "model": "true_model",
+  "horizon": 5,
+  "updates_per_collection": 4,
+  "fixed_other_hyperparameters": true,
+  "evaluation": "in-distribution validation only",
+  "comparison_claims_allowed": false
+}

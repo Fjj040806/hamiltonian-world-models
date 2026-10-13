@@ -1,0 +1,173 @@
+{
+  "gradient_checks_passed": true,
+  "dataset_hashes_passed": true,
+  "step_halving_max_difference": 2.768988992834302e-06,
+  "diagnostics": [
+    {
+      "kind": "node",
+      "seed": 0,
+      "step_halving_max_state_difference": 3.834528613578223e-08
+    },
+    {
+      "kind": "node",
+      "seed": 1,
+      "step_halving_max_state_difference": 2.1627837861293552e-08
+    },
+    {
+      "kind": "node",
+      "seed": 2,
+      "step_halving_max_state_difference": 5.5978058554002004e-08
+    },
+    {
+      "kind": "node",
+      "seed": 3,
+      "step_halving_max_state_difference": 3.14885216496684e-08
+    },
+    {
+      "kind": "node",
+      "seed": 4,
+      "step_halving_max_state_difference": 3.9227562181659455e-08
+    },
+    {
+      "kind": "second_order",
+      "seed": 0,
+      "step_halving_max_state_difference": 1.149090135658569e-07
+    },
+    {
+      "kind": "second_order",
+      "seed": 1,
+      "step_halving_max_state_difference": 2.768988992834302e-06
+    },
+    {
+      "kind": "second_order",
+      "seed": 2,
+      "step_halving_max_state_difference": 4.6614992575760443e-08
+    },
+    {
+      "kind": "second_order",
+      "seed": 3,
+      "step_halving_max_state_difference": 1.5298361702068248e-07
+    },
+    {
+      "kind": "second_order",
+      "seed": 4,
+      "step_halving_max_state_difference": 1.8039255968817275e-08
+    },
+    {
+      "kind": "force",
+      "seed": 0,
+      "step_halving_max_state_difference": 3.709985068150165e-08,
+      "force_circulation": 0.11670342836709091
+    },
+    {
+      "kind": "force",
+      "seed": 1,
+      "step_halving_max_state_difference": 4.756298874031601e-08,
+      "force_circulation": -0.023586182036279935
+    },
+    {
+      "kind": "force",
+      "seed": 2,
+      "step_halving_max_state_difference": 4.281760735102869e-08,
+      "force_circulation": 0.06688509249934427
+    },
+    {
+      "kind": "force",
+      "seed": 3,
+      "step_halving_max_state_difference": 3.257727408507098e-08,
+      "force_circulation": -0.13856690520424086
+    },
+    {
+      "kind": "force",
+      "seed": 4,
+      "step_halving_max_state_difference": 4.374394538837466e-08,
+      "force_circulation": -0.19697660701728825
+    },
+    {
+      "kind": "force_zero_mean",
+      "seed": 0,
+      "step_halving_max_state_difference": 4.1359988867601704e-08,
+      "force_circulation": 2.220446049250313e-16
+    },
+    {
+      "kind": "force_zero_mean",
+      "seed": 1,
+      "step_halving_max_state_difference": 5.741609990835365e-08,
+      "force_circulation": 0.0
+    },
+    {
+      "kind": "force_zero_mean",
+      "seed": 2,
+      "step_halving_max_state_difference": 6.094013716939724e-08,
+      "force_circulation": 0.0
+    },
+    {
+      "kind": "force_zero_mean",
+      "seed": 3,
+      "step_halving_max_state_difference": 5.500246121067119e-08,
+      "force_circulation": -4.440892098500626e-16
+    },
+    {
+      "kind": "force_zero_mean",
+      "seed": 4,
+      "step_halving_max_state_difference": 5.9149792102204e-08,
+      "force_circulation": 0.0
+    },
+    {
+      "kind": "hnn",
+      "seed": 0,
+      "step_halving_max_state_difference": 8.477731133577771e-09,
+      "force_circulation": 0.0,
+      "critical_angles": [
+        0.0006412560167358484,
+        3.0776308862103745
+      ],
+      "critical_potential_range": 1.9985130087464982
+    },
+    {
+      "kind": "hnn",
+      "seed": 1,
+      "step_halving_max_state_difference": 5.1933171068576844e-08,
+      "force_circulation": 0.0,
+      "critical_angles": [
+        -0.0016697717208185355,
+        3.0416361665736917
+      ],
+      "critical_potential_range": 1.9195525651517285
+    },
+    {
+      "kind": "hnn",
+      "seed": 2,
+      "step_halving_max_state_difference": 6.980674753128373e-08,
+      "force_circulation": -2.220446049250313e-16,
+      "critical_angles": [
+        -3.13209370812302,
+        0.0004676865636628864
+      ],
+      "critical_potential_range": 1.9892465645893709
+    },
+    {
+      "kind": "hnn",
+      "seed": 3,
+      "step_halving_max_state_difference": 8.562763304694731e-08,
+      "force_circulation": 2.220446049250313e-16,
+      "critical_angles": [
+        0.0012799313289822806,
+        3.1132924823520605
+      ],
+      "critical_potential_range": 1.924266184671999
+    },
+    {
+      "kind": "hnn",
+      "seed": 4,
+      "step_halving_max_state_difference": 4.8250337777308454e-08,
+      "force_circulation": 0.0,
+      "critical_angles": [
+        -3.0776353479677665,
+        -0.00016971672304793108
+      ],
+      "critical_potential_range": 2.0655526835414246
+    }
+  ],
+  "scope": "Step-halving checks cover one fixed near-above initial state for all 25 models; not every test trajectory."
+}
